@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome To Coding School!</h1>
+    </header>
+    <main>
+      <form>
+        <h2>Leave your details and we will get to you asap.</h2>
+        <fieldset>
+          <legend><h3>Contact form</h3></legend>
+          <label for="fullName">Full name</label>
+          <input
+            type="text"
+            id="fullName"
+            name="fullName"
+            placeholder="Your full name here"
+            required
+          />
+          <br /><br />
+
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your email@here.please"
+            required
+          />
+          <br /><br />
+          <label for="phone">Phone number</label>
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            placeholder="+4912345678"
+            required
+          />
+          <br />
+          <p>What would you like to study?</p>
+          <label for="course">Please choose a course</label>
+          <select name="course" id="course" required>
+            <option value="">--Please choose a course</option>
+            <option value="sd">Software Develompent</option>
+            <option value="data">Data Science</option>
+            <option value="ai">AI Agents and Automation</option>
+            <option value="o95">Office 95</option>
+          </select>
+          <p>How did you hear about us?</p>
+          <input
+            type="radio"
+            id="friend"
+            name="hear-us"
+            value="friend"
+            required
+          />
+          <label for="friend">Friend</label><br />
+          <input
+            type="radio"
+            id="social-media"
+            name="hear-us"
+            value="social-media"
+          />
+          <label for="social-media">Social-media</label><br />
+          <input type="radio" id="newspaper" name="hear-us" value="newspaper" />
+          <label for="newspaper">Newspaper</label><br />
+          <input type="radio" id="other" name="hear-us" value="other" />
+          <label for="other">Other</label><br /><br />
+          <label for="newsletter"
+            ><input type="checkbox" name="subscribe" value="newsletter" />
+            subscribe to Newsletter</label
+          ><br /><br />
+          <label for="message">Leave a message:</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Type your message here"
+          ></textarea
+          ><br /><br />
+          <button type="submit" required>Submit</button>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
