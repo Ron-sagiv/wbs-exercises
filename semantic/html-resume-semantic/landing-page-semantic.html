@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forever Home</title>
+    <link rel="stylesheet" href="styles-landing-page.css" />
   </head>
   <body>
     <header>
-      <h1>Adopt your angel!</h1>
+      <h1>Adopt Your Angel!</h1>
 
       <p>We are helping dogs to find their a warm family and a forever home.</p>
     </header>
@@ -19,6 +20,7 @@
           family and a protective home
         </p>
         <h2>WHY Adopt From Us?</h2>
+        <br />
         <ul>
           <li>We understand dogs and humans!</li>
           <li>Comprehensive Veterinary Checks.</li>
@@ -26,26 +28,34 @@
         </ul>
       </section>
       <section>
-        <h2>Meet Our Dogs</h2>
-        <figure>
-          <img src="https://placedog.net/520/280" alt="Rexy" />
-          <figcaption>Rexy, 3 months old</figcaption>
-        </figure>
-        <figure>
-          <img src="https://placedog.net/220/280" alt="Bella" />
-          <figcaption>Bella, 5 years old</figcaption>
-        </figure>
-        <figure>
-          <img src="https://placedog.net/820/280" alt="Kiki" />
-          <figcaption>Kiki, 2 years old</figcaption>
-        </figure>
+        <h2>Meet Our Dogs:</h2>
+        <div class="photos">
+          <figure>
+            <div class="image">
+              <img src="https://placedog.net/520/280" alt="Rexy" />
+            </div>
+            <figcaption>Rexy, 3 months old</figcaption>
+          </figure>
+          <figure>
+            <div class="image">
+              <img src="https://placedog.net/220/280" alt="Bella" />
+            </div>
+            <figcaption>Bella, 5 years old</figcaption>
+          </figure>
+          <figure>
+            <div class="image">
+              <img src="https://placedog.net/820/280" alt="Kiki" />
+            </div>
+            <figcaption>Kiki, 2 years old</figcaption>
+          </figure>
+        </div>
       </section>
       <section>
         <h2>Get in Touch</h2>
 
         <form method="dialog">
           <fieldset>
-            <legend><h2>Contact Form</h2></legend>
+            <legend><h3 class="hLegend">Contact Form</h3></legend>
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" /><br /><br />
             <label for="email">Email:</label>
